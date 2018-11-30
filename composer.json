@@ -1,0 +1,25 @@
+{
+    "name": "mcavalcante/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marden Cavalcante",
+            "email": "mardenmc22@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Basic\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Basic\\Blog\\": ""
+        }
+    }
+}
